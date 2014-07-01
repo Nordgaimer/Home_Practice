@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JBrainsServlet</display-name>
+  <servlet>
+    <servlet-name>Xml_Servlet</servlet-name>
+    <servlet-class>org.nordgaimer.study.XmlServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SimpleServlet</servlet-name>
+    <servlet-class>org.nordgaimer.study.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServlet</servlet-name>
+    <url-pattern>/simpleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xml_Servlet</servlet-name>
+    <url-pattern>/xmlServletpath</url-pattern>
+  </servlet-mapping>
+</web-app>

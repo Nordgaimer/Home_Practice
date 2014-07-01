@@ -1,0 +1,21 @@
+package Main;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class Test1 {
+
+
+		   public static void main(String[] args) throws IOException {
+
+			   String ret = "";
+		        for (char c = 'a'; c <= 'z'; c++) {
+		            ret += c;
+		        }
+		        System.out.println(ret);
+		    
+
+		    }
+
+}

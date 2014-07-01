@@ -1,0 +1,57 @@
+
+import java.sql.*;
+
+public class Main 
+{
+
+
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException 
+	{
+		Connection connection = null;
+		Statement stmt = null;
+		ResultSet result = null;
+
+		Driver driver = (Driver) Class.forName("org.sqlite.JDBC").newInstance();
+		String ulr = "jdbc:sqlite:C:\\Users\\User\\Диск Google\\DB\\Persons.db";
+		//=========
+		//CREATE
+		//=========
+		try {
+			connection = DriverManager.getConnection(ulr);
+			String sql = "INSERT INTO lib_First_Names VALUES ('8','Jeremy','Джереми')"; 													
+			stmt = connection.createStatement();
+//			result = stmt.executeQuery(sql);
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//=========
+		//READ
+		//=========
+		try {
+			connection = DriverManager.getConnection(ulr);
+			String sql = "SELECT * FROM lib_First_Names"; 													
+			stmt = connection.createStatement();
+			result = stmt.executeQuery(sql);
+
+			while (result.next())
+			{
+				System.out.println(result.getString("name_en"));
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+				
+		//=========
+		//UPDATE
+		//=========
+		//=========
+		//DELETE
+		//=========
+
+	}
+
+}

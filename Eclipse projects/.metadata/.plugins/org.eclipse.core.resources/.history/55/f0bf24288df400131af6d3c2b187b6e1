@@ -1,0 +1,25 @@
+package Main;
+
+import java.util.List;
+
+import Exceptions.DBSystemException;
+import JdbcUtils.DAO_Manager;
+
+public class Main {
+
+	public static void main(String[] args) throws DBSystemException {
+		DAO_Manager dao = new DAO_Manager();
+		List<Integer> list = dao.getDocsChIdToList();
+		
+		for (Integer l: list){
+			System.out.println(l);
+			
+		
+	}
+		
+		System.out.println(dao.getHeaderInString(100000001));
+		//System.out.println(dao.getHeaderInDoc(100000001));
+	}
+
+	
+}

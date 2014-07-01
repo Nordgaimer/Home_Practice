@@ -1,0 +1,24 @@
+package Main;
+
+public class Test1 {
+
+	 public static class A {
+
+	    }
+	    public static class B extends A {
+
+	    }
+	    public static class C extends B {
+
+	    }
+
+	    public void foo(A a) {}
+	    public void foo(B a) {}
+	    public void foo(C a) {}
+
+	    public static void main(String[] args) {
+
+	        new Test1().foo(null);
+	    }
+
+}

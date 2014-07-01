@@ -1,0 +1,12 @@
+package Exceptions;
+
+
+public class DBSystemException extends DBException {
+    public DBSystemException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public DBSystemException(String message) {
+        super(message);
+    }
+}

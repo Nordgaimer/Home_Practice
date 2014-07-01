@@ -1,0 +1,23 @@
+public class Llist
+{
+	class Node
+	{
+		int data;
+		Node next;
+		Node(int data)
+		{
+			this.data=data;
+		}
+	}
+	Node root = null;
+
+	public void addStart (int data)
+	{	
+		Node tmp = new Node(data);
+		tmp.next=root;
+		root=tmp.next;
+	}	
+
+
+}
+

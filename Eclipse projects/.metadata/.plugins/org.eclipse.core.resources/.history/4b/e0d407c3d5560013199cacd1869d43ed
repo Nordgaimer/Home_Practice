@@ -1,0 +1,14 @@
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+
+public class WndPanel extends JPanel 
+{
+	public WndPanel()
+	{
+		JButton btn = new JButton("My Button");
+		
+		btn.setBounds(10, 10, 120, 22);
+		add(btn);
+	}
+}

@@ -1,0 +1,86 @@
+package JdbcUtils;
+
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+//import org.apache.xml.serialize.OutputFormat;
+//import org.apache.xml.serialize.XMLSerializer;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class XMLBuilder {
+	 /*
+     * Create xml string - fastest, but may have encoding issues
+     */
+    public static String toXML(ResultSet rs) throws SQLException
+    {
+        ResultSetMetaData rsmd = rs.getMetaData();
+        int colCount = rsmd.getColumnCount();
+        StringBuffer xml = new StringBuffer();
+        xml.append("<Results>");
+
+        while (rs.next())
+        {
+            xml.append("<Row>");
+
+            for (int i = 1; i <= colCount; i++)
+            {
+                String addDescription = XMLDescriptionMaker.addDescr(rsmd.getColumnName(i));
+            	String columnName = rsmd.getColumnName(i);
+                Object value = rs.getObject(i);
+                xml.append("<" + columnName + addDescription + ">");
+
+                if (value != null)
+                {
+                    xml.append(value.toString().trim());
+                }
+                xml.append("</" + columnName + ">");
+            }
+            xml.append("</Row>");
+        }
+
+        xml.append("</Results>");
+
+        return xml.toString();
+    }
+
+    /*
+     * Create document using DOM api
+     */
+    public static Document toDocument(ResultSet rs)
+        throws ParserConfigurationException, SQLException
+    {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.newDocument();
+
+        Element results = doc.createElement("Results");
+        doc.appendChild(results);
+
+        ResultSetMetaData rsmd = rs.getMetaData();
+        int colCount = rsmd.getColumnCount();
+
+        while (rs.next())
+        {
+            Element row = doc.createElement("Row");
+            results.appendChild(row);
+
+            for (int i = 1; i <= colCount; i++)
+            {
+                String columnName = rsmd.getColumnName(i);
+                Object value = rs.getObject(i);
+
+                Element node = doc.createElement(columnName);
+                node.appendChild(doc.createTextNode(value.toString()));
+                row.appendChild(node);
+            }
+        }
+        return doc;
+    }
+
+}

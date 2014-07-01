@@ -1,0 +1,13 @@
+public class Llist
+{
+	class Node
+	{
+		int data;
+		Node next;
+		Node(int data)
+		{
+			this.data=data;
+		}
+	}
+	Node root = null;
+}

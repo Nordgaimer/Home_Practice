@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class HW_3Test {
+
+	@Test
+	public void test() {
+		int actual = HW_3.hw_3(10,10,50,3,3);
+		assertEquals(6, actual);
+		
+	}
+}

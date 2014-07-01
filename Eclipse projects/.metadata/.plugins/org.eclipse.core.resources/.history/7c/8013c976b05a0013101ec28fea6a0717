@@ -1,0 +1,9 @@
+
+public class Check {
+
+	public static void main(String[] args) {
+		HW.hw_1();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package JdbcUtils;
+
+public class XMLDescriptionMaker {
+
+	public static String getData (String columnName){
+		if (columnName.equals("ChID")) {
+			return "Тестовый док";
+		}
+		return "none" ;
+				
+	}
+}

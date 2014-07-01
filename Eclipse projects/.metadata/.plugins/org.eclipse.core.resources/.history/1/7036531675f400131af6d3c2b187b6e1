@@ -1,0 +1,46 @@
+package XMLBuilder;
+
+public class QueryListStorage {
+	//Заголовок 
+	public static String getHeader (int documentId){
+		String temp = "SELECT "+documentId+" FROM t_Ven";
+		return temp;
+	}
+	//Товар
+	public static String getProduct (int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_VenA";
+		return temp;
+	}
+	//Партия
+	public static String getProductBatch (int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_VenD";;
+		return temp;
+	}
+	//Виды упаковок
+	public static String getPackType (int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_VenD_UM";
+		return temp;
+	}
+	//Маршрут 
+	public static String getProductRoutes (int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_VenRoutes";
+		return temp;
+	}
+	//Затраты
+	public static String getProductSpends (int documentId){
+		String temp = "SELECT "+documentId+" FROM t_VenSpends";
+		return temp;
+	}
+	//Несоответствие штрихкодов
+	public static String getUnknownBarCodes (int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_VenUnknBarCodes";
+		return temp;
+	}
+	//Несоответствие остатков
+	public static String getProductImbalance(int documentId){
+		String temp =  "SELECT "+documentId+" FROM t_Ven";
+		return temp;
+	}
+	
+	
+}
