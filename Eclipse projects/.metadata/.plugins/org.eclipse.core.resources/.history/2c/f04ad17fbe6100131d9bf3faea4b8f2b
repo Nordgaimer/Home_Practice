@@ -1,6 +1,0 @@
-import java.applet.Applet;
-
-
-public class PaintApplet extends Applet {
-
-}

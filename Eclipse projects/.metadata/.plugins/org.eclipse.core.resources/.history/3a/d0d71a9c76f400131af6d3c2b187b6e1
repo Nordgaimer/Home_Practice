@@ -1,5 +1,0 @@
-package JdbcUtils;
-
-public class QueryBuilder {
-
-}

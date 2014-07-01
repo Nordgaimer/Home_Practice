@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/RUJSP/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/RUJSP/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/CreditsOnline/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/CreditsOnline/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/RUJSP Session/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/RUJSP Session/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/RUJSP+Servlet Intro/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/RUJSP+Servlet Intro/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet Config/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet Config/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet MVC+JSTL/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet MVC+JSTL/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet MVC+Session/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet MVC+Session/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet Servlet&amp;XML/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet Servlet&amp;XML/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web10">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet GET&amp;POST MORE/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet GET&amp;POST MORE/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web11">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet MVC+Dispatcher/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet MVC+Dispatcher/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web12">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet Session+Context/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet Session+Context/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web13">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/RUJSP+Servlet+Forward=Dispatcher/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/RUJSP+Servlet+Forward=Dispatcher/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web14">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet Servlet&amp;Annotations/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet Servlet&amp;Annotations/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web15">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/JBrainsServlet GET&amp;tPOST parameters/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/JBrainsServlet GET&amp;tPOST parameters/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="Copy of FirstHibernate CascadeOperations:bin:hibernate.cfg.xml" value="7181299f-edad-468d-b4df-baa14ca2400c" />
+          <unit-entry name="Copy of FirstHibernate CascadeOperations:src:hibernate.cfg.xml" value="9141f626-326e-4aaa-a721-2cee78a2964f" />
+          <unit-entry name="Copy of FirstHibernate:bin:hibernate.cfg.xml" value="20aba096-3118-47da-a647-48d120d5415d" />
+          <unit-entry name="Copy of FirstHibernate:src:hibernate.cfg.xml" value="9970bd3d-161e-4227-b2a2-db02599bcb5c" />
+          <unit-entry name="CreditsOnline:build:classes:hibernate.cfg.xml" value="f2d0a17b-08af-4fed-a992-1838bc7a6166" />
+          <unit-entry name="CreditsOnline:src:hibernate.cfg.xml" value="0782460f-2b76-4b03-80e8-4295f5328424" />
+          <unit-entry name="HibWebProj:build:classes:hibernate.cfg.xml" value="6885548f-741b-4a68-8261-3433041f8155" />
+          <unit-entry name="HibWebProj:src:hibernate.cfg.xml" value="738182d2-260a-47b5-a1e4-ecc46e73b981" />
+          <unit-entry name="Hibernate:JBrains:bin:hibernate.cfg.xml" value="0528f688-5c3a-4f8a-941d-77ca0738a6aa" />
+          <unit-entry name="Hibernate:JBrains:src:hibernate.cfg.xml" value="66ea8a81-4646-48ef-8c42-df864bc9732e" />
+          <unit-entry name="JBrainsHibernate CascadeOperations:bin:hibernate.cfg.xml" value="c6549116-d26c-40b2-b7cf-26f368c89a6d" />
+          <unit-entry name="JBrainsHibernate CascadeOperations:src:hibernate.cfg.xml" value="650e221b-144c-4248-9599-56eca1162df4" />
+          <unit-entry name="JBrainsHibernate Collections:bin:hibernate.cfg.xml" value="11ce2e4c-a444-4f97-83fa-64a9d05e67bf" />
+          <unit-entry name="JBrainsHibernate Collections:src:hibernate.cfg.xml" value="b8a11628-bf4c-45ec-a89f-ff07675086bd" />
+          <unit-entry name="JBrainsHibernate Inherit Jointed Table:bin:hibernate.cfg.xml" value="547bbc57-6cb3-48da-ae56-2fb8568fac94" />
+          <unit-entry name="JBrainsHibernate Inherit Jointed Table:src:hibernate.cfg.xml" value="d1d928e3-29e6-4d97-9a7a-ffef5f044607" />
+          <unit-entry name="JBrainsHibernate Inherit SingleTableStrategy:bin:hibernate.cfg.xml" value="1736ffbe-c4ca-4296-838a-4f3e73cd0a1d" />
+          <unit-entry name="JBrainsHibernate Inherit SingleTableStrategy:src:hibernate.cfg.xml" value="4bd1dde8-afe3-4592-8d6a-9be09d54689f" />
+          <unit-entry name="JBrainsHibernate Inherit TABLE_PER_CLASS:bin:hibernate.cfg.xml" value="d898fee0-188a-4b54-9836-3d0de32b1712" />
+          <unit-entry name="JBrainsHibernate Inherit TABLE_PER_CLASS:src:hibernate.cfg.xml" value="9c9df8bf-a883-47c5-a93b-ea7693f51ebc" />
+          <unit-entry name="JBrainsHibernate Inheritance:bin:hibernate.cfg.xml" value="77c30e88-e717-4190-97a4-98afbd3123b6" />
+          <unit-entry name="JBrainsHibernate Inheritance:src:hibernate.cfg.xml" value="5616e960-a1a9-4264-9ea9-cf0e924983e0" />
+          <unit-entry name="JBrainsHibernate Many to Many Mapping:bin:hibernate.cfg.xml" value="0773b3c2-b29c-4de1-bdf7-7d3552a9591f" />
+          <unit-entry name="JBrainsHibernate Many to Many Mapping:src:hibernate.cfg.xml" value="2e1bff8e-30a3-40ef-b199-c8840111daf4" />
+          <unit-entry name="JBrainsHibernate OneToMany Mapping:bin:hibernate.cfg.xml" value="2f489f3f-afe8-4759-b0d2-628dd52fb048" />
+          <unit-entry name="JBrainsHibernate OneToMany Mapping:src:hibernate.cfg.xml" value="a1d1451e-60f6-4f28-a7bb-4ad690c1272e" />
+          <unit-entry name="JBrainsHibernate OneToOne Mapping:bin:hibernate.cfg.xml" value="a65fcc5e-0b56-4fa5-b851-70fcebf1c0ea" />
+          <unit-entry name="JBrainsHibernate OneToOne Mapping:src:hibernate.cfg.xml" value="90a4442a-7011-40a0-b030-827aeed891a8" />
+          <unit-entry name="JBrainsHibernate Overriding Att:bin:hibernate.cfg.xml" value="22ee59ea-b4de-4651-ac53-026e28b0fae2" />
+          <unit-entry name="JBrainsHibernate Overriding Att:src:hibernate.cfg.xml" value="b6f3e9d1-262d-491c-9b6f-48615f34ee2a" />
+          <unit-entry name="RUHibernate XML Mapping:bin:hibernate.cfg.xml" value="2fc93111-2a85-483f-a9e7-bdde073a3300" />
+          <unit-entry name="RUHibernate XML Mapping:src:hibernate.cfg.xml" value="565cb7c9-093d-4e34-8f34-743636e124f1" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Copy of FirstHibernate CascadeOperations/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Copy of FirstHibernate CascadeOperations/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Copy of FirstHibernate/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Copy of FirstHibernate/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/CreditsOnline/build/classes/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/CreditsOnline/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/HibWebProj/build/classes/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/HibWebProj/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Hibernate/JBrains/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Hibernate/JBrains/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate CascadeOperations/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate CascadeOperations/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Collections/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Collections/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit Jointed Table/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit Jointed Table/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit SingleTableStrategy/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit SingleTableStrategy/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit TABLE_PER_CLASS/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inherit TABLE_PER_CLASS/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inheritance/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Inheritance/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Many to Many Mapping/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Many to Many Mapping/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate OneToMany Mapping/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate OneToMany Mapping/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate OneToOne Mapping/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate OneToOne Mapping/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Overriding Att/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/JBrainsHibernate Overriding Att/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/RUHibernate XML Mapping/bin/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/RUHibernate XML Mapping/src/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
